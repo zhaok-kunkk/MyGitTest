@@ -7,12 +7,6 @@ import com.itqf.utils.DataGridResult;
 import com.itqf.utils.Query;
 import com.itqf.utils.R;
 
-/**
- * author: 007
- * date: 2018年7月19日下午3:31:30
- * file: ScheduleService.java
- * desc: 
- */
 public interface ScheduleService {
 
 	public DataGridResult findSchedule(Query query);

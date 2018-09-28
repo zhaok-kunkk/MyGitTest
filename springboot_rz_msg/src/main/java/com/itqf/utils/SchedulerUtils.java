@@ -16,14 +16,7 @@ import org.quartz.TriggerKey;
 import com.itqf.domain.ScheduleJob;
 import com.itqf.quartz.QuartzJob;
 
-/**
-*author：李丽婷
-*company：千锋互联
-*date:2018年7月18日 下午2:16:53
-*file:ScheduleUtils.java
-*desc:工具类
-*SchedulerUtils
-*/
+
 public class SchedulerUtils {
 	
 	// 3.1 创建Job，Trigger,Schedule，存入ScheduleJob

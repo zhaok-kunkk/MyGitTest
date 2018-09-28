@@ -26,12 +26,7 @@ import com.itqf.utils.ShiroUtils;
 
 import sun.tools.tree.ThisExpression;
 
-/**
- * author: 007
- * date: 2018年7月16日下午4:29:22
- * file: UserRealm.java
- * desc: 
- */
+
 @Component
 public class UserRealm extends AuthorizingRealm{
 

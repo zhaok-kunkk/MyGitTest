@@ -15,12 +15,7 @@ import com.alibaba.druid.wall.WallConfig;
 import com.alibaba.druid.wall.WallFilter;
 import com.itqf.utils.Lg;
 
-/**
- * author: 007
- * date: 2018年7月18日下午7:17:20
- * file: DriudConfig.java
- * desc: 
- */
+
 @Configuration
 public class DriudConfig {
 

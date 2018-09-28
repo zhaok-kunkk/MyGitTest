@@ -22,12 +22,7 @@ import org.springframework.context.annotation.Configuration;
 
 import com.itqf.shiro.UserRealm;
 
-/**
- * author: 007
- * date: 2018年7月16日下午3:53:03
- * file: ShiroConfig.java
- * desc: shiro配置
- */
+
 
 @Configuration//代表是spring的一个配置文件
 public class ShiroConfig {

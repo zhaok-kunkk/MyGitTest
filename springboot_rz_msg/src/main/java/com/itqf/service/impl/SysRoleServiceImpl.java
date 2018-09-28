@@ -17,12 +17,7 @@ import com.itqf.utils.DataGridResult;
 import com.itqf.utils.Query;
 import com.itqf.utils.R;
 
-/**
- * author: 007
- * date: 2018年7月14日下午3:23:09
- * file: SysRoleServiceImpl.java
- * desc: 
- */
+
 @Service
 public class SysRoleServiceImpl implements SysRoleService {
 

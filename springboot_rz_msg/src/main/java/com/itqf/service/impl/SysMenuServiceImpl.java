@@ -22,12 +22,7 @@ import com.itqf.utils.Query;
 import com.itqf.utils.R;
 import com.itqf.utils.ShiroUtils;
 
-/**
- * author: 007
- * date: 2018年7月12日下午4:34:40
- * file: SysMenuServiceImpl.java
- * desc: 
- */
+
 @Service
 public class SysMenuServiceImpl implements SysMenuService{
 

@@ -8,12 +8,7 @@ import com.itqf.utils.DataGridResult;
 import com.itqf.utils.Query;
 import com.itqf.utils.R;
 
-/**
- * author: 007
- * date: 2018年7月12日下午4:33:57
- * file: SysMenuService.java
- * desc: 
- */
+
 public interface SysMenuService {
 
 	public DataGridResult findAllMenu(Query query);

@@ -15,12 +15,7 @@ import com.itqf.utils.DataGridResult;
 import com.itqf.utils.Query;
 import com.itqf.utils.R;
 
-/**
- * author: 007
- * date: 2018年7月12日上午11:55:37
- * file: SysUserServiceImpl.java
- * desc: 
- */
+
 @Service
 public class SysUserServiceImpl implements SysUserService{
 
