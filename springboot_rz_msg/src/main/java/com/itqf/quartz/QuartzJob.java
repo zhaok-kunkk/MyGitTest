@@ -18,13 +18,6 @@ import com.itqf.utils.Lg;
 import com.itqf.utils.SpringContextUtils;
 
 
-
-/**   
- * author: 007
- * date: 2018年7月20日上午11:32:25
- * file: QuartzJob.java
- * desc: 
- */
 public class QuartzJob extends QuartzJobBean{
 
 	/* (non-Javadoc)

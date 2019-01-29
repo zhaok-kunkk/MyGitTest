@@ -1,11 +1,5 @@
 package com.itqf.utils;
-/**
-*author：李丽婷
-*company：千锋互联
-*date:2018年7月16日 上午11:14:57
-*file:Constant.java
-*desc:项目中所有的常量
-*/
+
 public class Constant {
 	
 	public static final String KAPTCHA_KEY = "kaptcha";//验证码存储在session中的key

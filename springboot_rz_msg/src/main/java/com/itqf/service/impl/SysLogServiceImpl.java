@@ -14,13 +14,6 @@ import com.itqf.service.SysLogService;
 import com.itqf.utils.DataGridResult;
 import com.itqf.utils.Query;
 
-/**
-*author：李丽婷
-*company：千锋互联
-*date:2018年7月17日 下午2:31:19
-*file:SysLogServiceImpl.java
-*desc:
-*/
 @Service
 public class SysLogServiceImpl implements SysLogService {
 

@@ -22,12 +22,7 @@ import com.itqf.utils.JsonUtils;
 import com.itqf.utils.Lg;
 import com.itqf.utils.ShiroUtils;
 
-/**
- * author: 007
- * date: 2018年7月18日下午8:18:31
- * file: MyLogAspect.java
- * desc: 
- */
+
 @Aspect
 @Component
 public class MyLogAspect {

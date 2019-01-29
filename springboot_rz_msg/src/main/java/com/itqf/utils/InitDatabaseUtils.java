@@ -11,9 +11,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.Properties;
 
-/**
- * Created by liliting on 2017/12/13.
- */
+
 public class InitDatabaseUtils {
     
     /**

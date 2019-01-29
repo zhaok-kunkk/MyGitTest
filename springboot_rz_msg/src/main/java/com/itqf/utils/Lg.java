@@ -1,10 +1,6 @@
 ﻿package com.itqf.utils;
 
-/**
- * 
- * @author liliting
- *
- */
+
 public class Lg {
     private static boolean open = true;
     

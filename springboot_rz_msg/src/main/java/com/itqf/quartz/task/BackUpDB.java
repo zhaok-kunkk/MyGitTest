@@ -8,12 +8,7 @@ import org.springframework.stereotype.Component;
 import com.itqf.utils.InitDatabaseUtils;
 import com.itqf.utils.Lg;
 
-/**
- * author: 007
- * date: 2018年7月20日下午3:54:36
- * file: BackUpDB.java
- * desc: 备份数据库
- */
+
 @Component("BackUpDB")
 public class BackUpDB {
 

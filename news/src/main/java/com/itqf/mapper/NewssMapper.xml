@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itqf.mapper.NewssMapper">
+  <resultMap id="BaseResultMap" type="com.itqf.domain.Newss">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="keywords" jdbcType="VARCHAR" property="keywords" />
+    <result column="eventname" jdbcType="VARCHAR" property="eventname" />
+    <result column="weightvalue" jdbcType="VARCHAR" property="weightvalue" />
+    <result column="loadtime" jdbcType="VARCHAR" property="loadtime" />
+  </resultMap>
+  <insert id="insert" parameterType="com.itqf.domain.Newss">
+    insert into newss (id, keywords, eventname, 
+      weightvalue, loadtime)
+    values (#{id,jdbcType=INTEGER}, #{keywords,jdbcType=VARCHAR}, #{eventname,jdbcType=VARCHAR}, 
+      #{weightvalue,jdbcType=VARCHAR}, #{loadtime,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.itqf.domain.Newss">
+    insert into newss
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="keywords != null">
+        keywords,
+      </if>
+      <if test="eventname != null">
+        eventname,
+      </if>
+      <if test="weightvalue != null">
+        weightvalue,
+      </if>
+      <if test="loadtime != null">
+        loadtime,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="keywords != null">
+        #{keywords,jdbcType=VARCHAR},
+      </if>
+      <if test="eventname != null">
+        #{eventname,jdbcType=VARCHAR},
+      </if>
+      <if test="weightvalue != null">
+        #{weightvalue,jdbcType=VARCHAR},
+      </if>
+      <if test="loadtime != null">
+        #{loadtime,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  
+  <select id="findById" parameterType="java.lang.Integer" resultMap="com.itqf.domain.Newss">
+  	select <include refid="Base_Column_List" />
+    from newss
+    where id=#{id,jdbcType=INTEGER}
+    </select>
+</mapper>

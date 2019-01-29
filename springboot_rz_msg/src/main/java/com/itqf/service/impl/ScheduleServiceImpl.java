@@ -19,12 +19,7 @@ import com.itqf.utils.Query;
 import com.itqf.utils.R;
 import com.itqf.utils.SchedulerUtils;
 
-/**
- * author: 007
- * date: 2018年7月19日下午3:32:38
- * file: ScheduleServiceImpl.java
- * desc: 
- */
+
 @Service
 public class ScheduleServiceImpl implements ScheduleService {
 
